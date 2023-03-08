@@ -81,7 +81,7 @@ export async function getStaticProps() {
                     _url:
                         'https://media.gq-magazine.co.uk/photos/5f35064effe32218efca4f9a/16:9/w_2880%2cc_limit/20200813-ramones-08.jpg'
                 },
-                imageCredits: '©Ian Dickson/Shutterstock. All Rights Reserved.'
+                imageCredits: 'something'
             }
         }
     };
