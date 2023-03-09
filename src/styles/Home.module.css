@@ -25,13 +25,13 @@
     margin: 0;
 }
 
-.artist {
+.event {
     display: block;
     height: 100vh;
     position: relative;
 }
 
-.artistContent {
+.eventContent {
     left: 50%;
     position: absolute;
     text-align: center;
@@ -40,7 +40,7 @@
     z-index: 1;
 }
 
-.artistTitle {
+.eventTitle {
     background: linear-gradient(to bottom, rgb(255 149 232) 0%, rgb(232 60 157) 40%, rgb(171 14 96) 65%, rgb(95 0 70) 80%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -54,7 +54,7 @@
     margin: 0;
 }
 
-.artistImage {
+.eventImage {
     bottom: 0;
     left: 0;
     overflow: hidden;
@@ -63,7 +63,7 @@
     top: 0;
 }
 
-    .artistImage:after {
+    .eventImage:after {
         content: '';
         position: absolute;
         left: 0;
@@ -74,7 +74,7 @@
         background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, 0.75) 100%);
     }
 
-    .artistImage img {
+    .eventImage img {
         bottom: 0px;
         display: block;
         filter: grayscale(85%);
@@ -94,11 +94,11 @@
         width: 0px;
     }
 
-    .artistImage:hover img {
+    .eventImage:hover img {
         transform: scale(1.1);
     }
 
-.artistButton {
+.eventButton {
     background: none;
     border: none;
     color: #fff;
@@ -112,11 +112,11 @@
     transition: color .3s ease-in;
 }
 
-    .artistButton:hover {
+    .eventButton:hover {
         color: #ff79d2;
     }
 
-.artistCredits {
+.eventCredits {
     color: #ccc;
     font-size: 14px;
     position: absolute;

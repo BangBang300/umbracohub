@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import styles from '../styles/Artist.module.css';
+import styles from '../styles/Event.module.css';
 
-export default function Artist({
+export default function Event({
     content: { title, biography, image, imageCredits }
 }) {
     return (
@@ -74,12 +74,12 @@ export async function getStaticProps() {
     return {
         props: {
             content: {
-                title: 'Ramones',
+                title: 'Company Day 2022',
                 biography:
-                    'The Ramones were an American punk rock band that formed in the New York City neighborhood of Forest Hills, Queens in 1974. They are often cited as the first true punk rock group.[1][2] Despite achieving only limited commercial success initially, the band was highly influential in the United States, Brazil and most of South America, as well as Europe, including the United Kingdom, the Netherlands, Germany, Sweden and Belgium. All of the band members adopted pseudonyms ending with the surname "Ramone", although none of them were biologically related; they were inspired by Paul McCartney of the Beatles, who would check into hotels as "Paul Ramon".',
+                    'Company day 2022, was held in Odense Zoo, food was provided by Umbraco as a token of appreciation for all the hard work that we do everyday.',
                 image: {
                     _url:
-                        'https://media.gq-magazine.co.uk/photos/5f35064effe32218efca4f9a/16:9/w_2880%2cc_limit/20200813-ramones-08.jpg'
+                        'https://media.umbraco.io/umbracohubapp/s5zd1mqt/image.png'
                 },
                 imageCredits: 'something'
             }
