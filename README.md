@@ -28,4 +28,10 @@ For at se det som udviklere og dem der skal vedligeholde siden skal tage sig af 
 For at se det som editors laver så gå til "content section."
 For at se det som udviklere og dem der skal vedligeholde siden skal tage sig af gå til "Settings section"
 
+### For at se codebase for Umbraco Cloud projektet (vil være vedhæftet som en zip på wiseflow)
+- live site: https://wuumbracohub.euwest01.umbraco.io/
+- Se "settings" section --> "templates" her opbevares razorpages I Cloud
+- (Alternativt kan projektet clones ned https://docs.umbraco.com/umbraco-cloud/setup/working-locally#cloning-an-umbraco-cloud-project )
+
+
     
